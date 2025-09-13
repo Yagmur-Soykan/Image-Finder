@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arama Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div>
+    <div class="form-wrapper">
+        <form id="form">
+            <input id="searchInput" type="text" placeholder = "Write something">
+            <div class="button-wrapper">
+                <button id="searchButton">Search</button>
+                <button id="clearButton">Clear</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="imageList-wrapper">
+        <!-- Resimlmer
+         <div class="card"></div>  -->
+    </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+
+---HEADER-AUTHORIZATION---
+Eğer API, bir API anahtarı ya da TOKEN gerektiriyorsa, bu anahtarı Authorization başlığı altında yazılır
+Eğer API herkesin erişimine açıksa ve kimlik doğrulama gerektirmiyorsa, Authorization başlığına gerek olmaz.
+
+Headers, bir HTTP isteğinin veya cevabının meta verilerini içerir. Yani, istek veya cevapla ilgili ek bilgiler taşır.
+Örneğin, isteğin ne tür bir içerik içerdiği (Content-Type), sunucunun kimlik doğrulama bilgilerini nasıl kontrol etmesi gerektiği (Authorization), ve daha fazlası.
+
+---METHOD---
+method, HTTP isteğinin amacını belirtir:
+
+GET: Veri almak için kullanılır. Örneğin, bir kullanıcının bilgilerini almak.
+POST: Veri göndermek veya yeni bir kayıt oluşturmak için kullanılır.
+PUT: Mevcut bir kaydı güncellemek için kullanılır.
+DELETE: Bir kaydı silmek için kullanılır.
+ 
+-->

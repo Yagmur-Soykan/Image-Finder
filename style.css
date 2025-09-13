@@ -1,0 +1,72 @@
+*{
+    background-color:rgb(84, 81, 81);
+}
+
+#form{
+    margin:30px auto 0;
+    display:flex;
+    flex-direction:column; /*formun içinde blunan ana bileşenleri satır satır sıralar*/
+    width:100%;                     /*nested elamanlar etkilenmez.*/
+    justify-content:center;
+    align-items:center;
+}
+
+input{
+    background-color:white;
+    width:75%;
+    padding:15px;
+    border-radius:25px;
+    border:2px solid black;
+    box-shadow: 3px 5px 8px rgb(42, 39, 39);
+    margin-bottom:20px;
+    text-align:Center;
+    font-size:20px;
+    
+}
+
+#searchButton{
+    border-radius:10px;
+    font-size:15px;
+    border:none;
+    width:120px;
+    padding:12px;
+    background-color:rgb(81, 121, 61);
+    color:white;
+    font-weight:bold;
+    box-shadow: 3px 5px 8px black;
+}
+
+#clearButton{
+    border-radius:10px;
+    font-size:15px;
+    border:none;
+    width:120px;
+    padding:12px;
+    background-color:rgb(166, 41, 41);
+    color:white;
+    font-weight:bold;
+    box-shadow: 3px 5px 8px black;
+}
+
+.button-wrapper{
+    width:305px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.imageList-wrapper{
+    display:flex;
+    flex-direction:row; /*ekran taşarsa alt satıra geçsin istiyorsak */
+    flex-wrap:wrap;               /*flex-wrap kullanılmalıdır*/
+    justify-content:center;
+}
+
+.card{
+    background-color:white;
+    margin:20px;
+    border:1px solid gray;
+    padding:25px;
+    border-radius:5px;
+    box-shadow: 3px 5px 11px black;
+
+}
